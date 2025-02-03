@@ -1,0 +1,111 @@
+lets start i will explain you all things with the context : the thing is that we are given a project of a very famous game Metal Slug but  the thing is that we have to create it in c++ on visual studio IDE and we are allowed only to use Raylib Library as i have not used Raylib or anyother graphics libarary for any of  the project teh thing is that whatwe use to do is thatwe use some of the windows . h header file function for the movemnet and _kbhit for the mosue input but the thing is  that we cannotuse  those or any function that isassocaiated with console beacuse we just have to create the game on window ok so as we have to carete the game Metal Slug i have understod some if the things of   thelibaryb and dihave properlystepupthelibrray and it is woring well like ihave tested it by placung my character and added some basic functions of monementusing WASD andthe thing is  that we are studentsof 2nd  Semster sowe ahave practiceof 5to 6 months of c++ and dalso we ahve studied till stuctsand d function we are not allowed to use any complex things thatwe arenot able to understaand or make someone else understand it  so now as i have given you the whole background knowledge and you know whati am doing so now this is mycode  so far #include "raylib.h"
+#include <iostream>
+#include <string>
+#include <sstream>  // For stringstream to handle leading zeros
+#include<iomanip>
+using namespace std;
+
+// Player structure
+enum Direction { UP, DOWN, RIGHT, LEFT };
+
+struct player {
+    int x, y;
+    Direction direction;
+    int up_key, down_key, right_key, left_key, shoot_key;
+    int health;
+    int score;
+    bool shooting;
+    bool jumping;
+    int weapon;
+};
+
+
+void key_pressed(player& p)
+{
+    if (IsKeyDown(p.up_key))
+    {
+        p.y -= 5; 
+        p.direction = UP;
+    }
+    if (IsKeyDown(p.down_key))
+    {
+        p.y += 2;
+        p.direction = DOWN;
+    }
+    if (IsKeyDown(p.left_key))
+    {
+        p.x -= 5;
+        p.direction = LEFT;
+    }
+    if (IsKeyDown(p.right_key))
+    {
+        p.x += 5;
+        p.direction = RIGHT;
+    }
+    if (IsKeyDown(p.shoot_key))
+    {
+        p.x += 5;
+        p.direction = RIGHT;
+    }
+}
+
+int main() 
+{
+    // Initialize a fullscreen window
+    InitWindow(GetMonitorWidth(0), GetMonitorHeight(0), "Metal Slug - Player Movement");
+    SetTargetFPS(60);
+
+    // Load the player sprites
+    Texture2D rightFace = LoadTexture("assets/sprites/right_face.png");
+    Texture2D leftFace = LoadTexture("assets/sprites/left_face.png");
+
+    if (rightFace.id == 0 || leftFace.id == 0) {
+        BeginDrawing();
+        ClearBackground(RAYWHITE);
+        DrawText("Failed to load one or both sprites!", 100, 100, 20, RED);
+        EndDrawing();
+        CloseWindow();
+        return -1;
+    }
+
+    // Resize sprites
+    float scale = 0.3; // Scale down to 50%
+    int rightFaceWidth = rightFace.width * scale;
+    int rightFaceHeight = rightFace.height * scale;
+    int leftFaceWidth = leftFace.width * scale;
+    int leftFaceHeight = leftFace.height * scale;
+
+    // Initialize the player
+    player p = { 200, 300, RIGHT, KEY_W, KEY_S, KEY_D, KEY_A,KEY_SPACE, 100, 0, false, false, 1 };
+
+    while (!WindowShouldClose()) 
+    {
+       
+        key_pressed(p);
+        BeginDrawing();
+        ClearBackground(RAYWHITE);
+
+        if (p.direction == LEFT) 
+        {
+            DrawTextureEx(leftFace, { (float)p.x, (float)p.y }, 0.0f, scale, WHITE);
+        }
+        else {
+            DrawTextureEx(rightFace, { (float)p.x, (float)p.y }, 0.0f, scale, WHITE);
+        }
+
+        EndDrawing();
+    }
+
+    // Unload textures
+    UnloadTexture(rightFace);
+    UnloadTexture(leftFace);
+    CloseWindow();
+
+    return 0;
+}
+
+
+
+now i have a bit of knowledgeof on howtoload a pictire as done in the window so as iahve started tomake this game at this point my objective to  first create the user interface for now and not the  fucntionality sfor now so what you ahve  to do is i am about to exaplin thesteps taht i thingtahtweshould do to implement the game properly and try to complete it beforetiem and as early as possible so now  what you have to do is that tell if any cahngeyou would suggest or this is a good approach and also i will erite the steps you will exlplaain from where  i could getthose assetsandd whatshould i don taht looks better so in thispropti ahve explaineed  you all the things properly and for  the first prompt you jsut haave firstto  guide me throiiough this :
+
+i  want to a mek the game to laod liek the real game  liek on the firstoage gcomes  the picture of metal slug 

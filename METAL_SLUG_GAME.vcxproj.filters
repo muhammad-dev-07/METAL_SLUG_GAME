@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="assets">
+      <UniqueIdentifier>{5a6c936d-5ded-4d7c-81e9-d07c9f70345a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="assets\sprites">
+      <UniqueIdentifier>{dea31cda-3fab-4eba-81f1-3640716b62b6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="assets\sound">
+      <UniqueIdentifier>{0d54fca9-3123-4d21-9ec3-753f7b69e564}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="assets\sprites\player_walk_right">
+      <UniqueIdentifier>{d6766ffa-0026-45a3-88a2-1aaffb8a8e77}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="assets\sprites\player_walk_left">
+      <UniqueIdentifier>{c1146634-059f-4738-888c-e2ea00e1a7ff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="assets\sprites\player_shooting">
+      <UniqueIdentifier>{be3f4e59-c1d4-4306-a383-0d74164283e2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="assets\sprites\player_heeling">
+      <UniqueIdentifier>{e68a3c98-df33-4c20-abf4-b77861a8d8cd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="assets\startingscreen">
+      <UniqueIdentifier>{83ca21df-eca4-4310-be56-77ab63a89d58}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="METAL_SLUG_GAME.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\..\..\..\..\Downloads\right_face.png">
+      <Filter>assets\sprites</Filter>
+    </Image>
+    <Image Include="..\..\..\..\..\Downloads\left_face.png">
+      <Filter>assets\sprites</Filter>
+    </Image>
+    <Image Include="assets\starting loading &amp; menu\start2.png">
+      <Filter>assets\startingscreen</Filter>
+    </Image>
+    <Image Include="assets\starting loading &amp; menu\start3.png">
+      <Filter>assets\startingscreen</Filter>
+    </Image>
+    <Image Include="assets\starting loading &amp; menu\start4.png">
+      <Filter>assets\startingscreen</Filter>
+    </Image>
+    <Image Include="assets\starting loading &amp; menu\start5.png">
+      <Filter>assets\startingscreen</Filter>
+    </Image>
+    <Image Include="assets\starting\start1..png">
+      <Filter>assets\startingscreen</Filter>
+    </Image>
+    <Image Include="assets\menu_background.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\controls.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\level_selection.png">
+      <Filter>assets</Filter>
+    </Image>
+  </ItemGroup>
+</Project>

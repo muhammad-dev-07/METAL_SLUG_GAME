@@ -1,0 +1,10 @@
+﻿  METAL_SLUG_GAME.cpp
+C:\Users\Muhammad Ali\Documents\SPRING 2025 SEMESTER 2\Object Oriented Programming (OOP)\Projects Files\METAL_SLUG_GAME\METAL_SLUG_GAME.cpp(306,59): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\Muhammad Ali\Documents\SPRING 2025 SEMESTER 2\Object Oriented Programming (OOP)\Projects Files\METAL_SLUG_GAME\METAL_SLUG_GAME.cpp(306,50): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\Muhammad Ali\Documents\SPRING 2025 SEMESTER 2\Object Oriented Programming (OOP)\Projects Files\METAL_SLUG_GAME\METAL_SLUG_GAME.cpp(309,67): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\Muhammad Ali\Documents\SPRING 2025 SEMESTER 2\Object Oriented Programming (OOP)\Projects Files\METAL_SLUG_GAME\METAL_SLUG_GAME.cpp(309,58): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\Muhammad Ali\Documents\SPRING 2025 SEMESTER 2\Object Oriented Programming (OOP)\Projects Files\METAL_SLUG_GAME\METAL_SLUG_GAME.cpp(312,49): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\Muhammad Ali\Documents\SPRING 2025 SEMESTER 2\Object Oriented Programming (OOP)\Projects Files\METAL_SLUG_GAME\METAL_SLUG_GAME.cpp(312,40): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+  METAL_SLUG_GAME.vcxproj -> C:\Users\Muhammad Ali\Documents\SPRING 2025 SEMESTER 2\Object Oriented Programming (OOP)\Projects Files\METAL_SLUG_GAME\x64\Debug\METAL_SLUG_GAME.exe
+  'pwsh.exe' is not recognized as an internal or external command,
+  operable program or batch file.

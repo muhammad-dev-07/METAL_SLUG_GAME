@@ -1,0 +1,3 @@
+C:\Users\Muhammad Ali\Documents\SPRING 2025 SEMESTER 2\Object Oriented Programming (OOP)\Projects Files\METAL_SLUG_GAME\x64\Debug\raylib.dll
+C:\Users\Muhammad Ali\Documents\SPRING 2025 SEMESTER 2\Object Oriented Programming (OOP)\Projects Files\METAL_SLUG_GAME\x64\Debug\glfw3.dll
+C:\Users\Muhammad Ali\Documents\SPRING 2025 SEMESTER 2\Object Oriented Programming (OOP)\Projects Files\METAL_SLUG_GAME\METAL_SLUG_GAME\x64\Debug\METAL_SL.DBA65279.Up2Date
